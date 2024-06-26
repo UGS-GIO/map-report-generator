@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react';
 import config from '../config';
 import './SummaryPage.scss';
-import { kebabCase } from 'lodash';
+import { kebabCase } from '../util/util';
 
 interface HazardUnit {
   HazardName: string;
